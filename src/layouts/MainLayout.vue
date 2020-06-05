@@ -33,7 +33,7 @@
 
         </q-toolbar-title>
 
-        <div>SPA Version 1.7 .</div>
+        <div></div>
         <q-avatar>
       <img src="~assets/simbolo.png">
     </q-avatar>
