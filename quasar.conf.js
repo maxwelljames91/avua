@@ -128,9 +128,9 @@ module.exports = configure(function (ctx) {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: 'Quasar SAP',
-        short_name: 'Quasar SAP',
-        description: 'A Quasar Framework app',
+        name: 'Avuá Libras',
+        short_name: 'Avuá',
+        description: 'Avuá Libras Site Oficial',
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
