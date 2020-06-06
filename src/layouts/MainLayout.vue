@@ -30,7 +30,7 @@
         </q-menu>
       </q-btn>
         <q-toolbar-title>
-
+          Avuá Libras - Site Oficial
         </q-toolbar-title>
 
         <div></div>
