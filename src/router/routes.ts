@@ -4,18 +4,14 @@ const routes: RouteConfig[] = [
   {
     path: '/',
     component: () => import('layouts/MainLayout3.vue'),
-    children: [{ path: '', component: () => import('pages/Index.vue') }]
+    children: [
+      { path: '', component: () => import('pages/Index.vue') },
+      { path: 'Agenda', component: () => import('pages/Agenda.vue') },
+      { path: 'Cursos', component: () => import('pages/Cursos.vue') },
+      { path: 'Quadros', component: () => import('pages/Quadros.vue') },
+      { path: 'QuemSomos', component: () => import('pages/Somos.vue') }
+    ]
   },
-  {
-    path: '/',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('pages/cursos.vue') }]
-  },
-  {
-    path: '/',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('pages/trabalhos.vue') }]
-  }
 ]
 
 // Always leave this as last one
